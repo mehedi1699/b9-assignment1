@@ -249,7 +249,7 @@
 }
 
 .user-email {
-    width:380px;
+    width: 380px;
     height: 62px;
     border-radius: 50px 0px 0px 50px;
     border: none;
@@ -257,11 +257,39 @@
     background: #FFF;
     padding-left: 80px;
 }
-.sub-btn{
+
+.sub-btn {
     width: 180px;
-height: 62px;
-margin: 0px;
-border-radius: 0px 50px 50px 0px;
-background: #F00;
-border: none;
+    height: 62px;
+    margin: 0px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+}
+
+/* footer section start here */
+footer {
+    background: #070211;
+}
+
+.commonunication-details {
+    display: flex;
+    justify-content: space-between;
+    padding:40px 100px;
+}
+.commonunication-details>hr{
+    padding: 0px 100px;
+}
+
+.contact {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+}
+.commonunication-icon{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 60px 100px;
 }
