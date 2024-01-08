@@ -170,7 +170,7 @@
 
 .off-title {
     color: #F00;
-margin-bottom: 0px;
+    margin-bottom: 0px;
     font-family: Inter;
     font-size: 48px;
 }
@@ -206,30 +206,62 @@ margin-bottom: 0px;
     font-family: Inter;
     font-size: 20px;
 }
-.discount{
+
+.discount {
     background-image: url(resources/Rectangle\ 1.png);
     background-position: right top;
     background-repeat: no-repeat;
-    margin:0px 100px;
-    
+    margin: 0px 100px;
+
 }
-.discount-container{
+
+.discount-container {
     display: flex;
     background-image: url(resources/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-position: bottom;
     margin: 0;
 }
-.dis-image{
+
+.dis-image {
     align-items: center;
 }
+
 /* portfolio section start here */
-.portfolio-title{
+.portfolio-title {
     margin: 60px 100px;
 }
-.product-details{
+
+.product-details {
     display: flex;
     margin: 10px 100px;
     margin-bottom: 50px;
     justify-content: space-between;
+}
+
+/* communication section sart here */
+.communication {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 40px 100px;
+    padding: 60px;
+    text-align: center;
+}
+
+.user-email {
+    width:380px;
+    height: 62px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    margin: 0px;
+    background: #FFF;
+    padding-left: 80px;
+}
+.sub-btn{
+    width: 180px;
+height: 62px;
+margin: 0px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+border: none;
 }
