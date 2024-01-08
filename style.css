@@ -1,0 +1,139 @@
+* {
+    font-family: 'Merriweather', serif;
+}
+
+/* banner section style start */
+.banner {
+    background-image: url(resources/Banner\ Image.png);
+    background-position: center;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.happy {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 177px;
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    padding-bottom: 177px;
+}
+
+/* banner section style end */
+
+/* offer section start */
+.off-percentance {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    margin-bottom: 30px;
+}
+
+.off-dis {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.all-categories {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    margin-top: 5px;
+}
+
+.new-year-photo {
+    display: block;
+    margin: 80px auto;
+}
+
+/* welcome section start */
+.welcome {
+    background-image: url(resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.welcome-title>h1 {
+    color: #FFF;
+    padding-left: 160px;
+    padding-top: 100px;
+    font-size: 64px;
+}
+
+.welcome-title>p {
+    color: rgba(255, 255, 255, 0.80);
+    padding-left: 160px;
+    font-family: Inter;
+    font-size: 18px;
+}
+
+.welcome-title>h3 {
+    color: #FFF;
+padding-bottom: 120px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+}
+.party-pic{
+    display: block;
+    padding-top: 80px;
+    padding-left: 200px;
+}
+.place{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin:100px auto;
+    width: 1320px;
+height: 482px;
+text-align: center;
+}
+.place-container{
+    padding:200px
+}
+.same-place{
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+}
+.place-details{
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+}
+.join-btn{
+    border-radius: 8px;
+background: #F00;
+    padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: none;
+}
+/* welcome section end */
+
+/* best offer section start */
+.best-offer{
+    display: flex;
+    margin: 150px 150px;
+}
+.best-offer-container{
+    width:33%;
+    padding:20px;
+}
+#celebration-image{
+    border: 6px solid red;
+    padding: 10px;
+    border-radius:100% ;
+}
