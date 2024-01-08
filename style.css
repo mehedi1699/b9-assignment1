@@ -80,60 +80,156 @@
 
 .welcome-title>h3 {
     color: #FFF;
-padding-bottom: 120px;
+    padding-bottom: 120px;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
 }
-.party-pic{
+
+.party-pic {
     display: block;
     padding-top: 80px;
     padding-left: 200px;
 }
-.place{
+
+.place {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    margin:100px auto;
+    margin: 100px auto;
     width: 1320px;
-height: 482px;
-text-align: center;
+    height: 482px;
+    text-align: center;
 }
-.place-container{
-    padding:200px
+
+.place-container {
+    padding: 200px
 }
-.same-place{
+
+.same-place {
     color: #F00;
 
-text-align: center;
-font-family: Inter;
-font-size: 32px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
 }
-.place-details{
+
+.place-details {
     color: #070211;
-font-family: Inter;
-font-size: 32px;
+    font-family: Inter;
+    font-size: 32px;
 }
-.join-btn{
+
+.join-btn {
     border-radius: 8px;
-background: #F00;
+    background: #F00;
     padding: 16px 32px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
 }
+
 /* welcome section end */
 
 /* best offer section start */
-.best-offer{
+.best-offer {
     display: flex;
     margin: 150px 150px;
 }
-.best-offer-container{
-    width:33%;
-    padding:20px;
+
+.best-offer-container {
+    width: 33%;
+    padding: 20px;
 }
-#celebration-image{
-    border: 6px solid red;
+
+#celebration-image {
+    border: 8px solid red;
     padding: 10px;
-    border-radius:100% ;
+    border-radius: 100%;
+}
+
+.best-offer-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.offer-comming {
+    color: #070211;
+    font-size: 48px;
+    padding-top: 08px;
+    margin-top: 0px;
+}
+
+.best-offer-details {
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.off-title {
+    color: #F00;
+margin-bottom: 0px;
+    font-family: Inter;
+    font-size: 48px;
+}
+
+/* what is functional section start */
+.holiday-function {
+    margin: 100px;
+}
+
+.holiday-function>h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.holiday-function>h1 {
+    color: #070211;
+    text-align: center;
+    text-align: center;
+    font-size: 72px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.holiday {
+    color: #F00;
+}
+
+.holiday-function>p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+}
+.discount{
+    background-image: url(resources/Rectangle\ 1.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    margin:0px 100px;
+    
+}
+.discount-container{
+    display: flex;
+    background-image: url(resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 0;
+}
+.dis-image{
+    align-items: center;
+}
+/* portfolio section start here */
+.portfolio-title{
+    margin: 60px 100px;
+}
+.product-details{
+    display: flex;
+    margin: 10px 100px;
+    margin-bottom: 50px;
+    justify-content: space-between;
 }
